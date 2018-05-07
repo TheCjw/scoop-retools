@@ -1,0 +1,14 @@
+{
+    "homepage": "http://www.benf.org/other/cfr/",
+    "version": "0_128",
+    "hash": "3d6adb020c842cc8cb4198e7b38f256363987ba86fdb0272c1a7dcd08c0bbd26",
+    "url": "http://www.benf.org/other/cfr/cfr_0_128.jar",
+    "suggest": {
+        "JDK": [
+            "java/oraclejdk",
+            "java/openjdk"
+        ]
+    },
+    "bin": "cfr.bat",
+    "pre_install": "\"@java -Xmx2G -jar \"\"$dir\\cfr_$version.jar\"\" %*\" | out-file -en oem \"$dir\\cfr.bat\""
+}
