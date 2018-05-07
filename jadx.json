@@ -1,0 +1,20 @@
+{
+    "homepage": "https://github.com/skylot/jadx",
+    "version": "0.7.1",
+    "hash": "1f0431273ad9e56a40fb31ad6c355ccb1da5be74887d8d9fb17995bd7cb06285",
+    "url": "https://github.com/skylot/jadx/releases/download/v0.7.1/jadx-0.7.1.zip",
+    "suggest": {
+        "JDK": [
+            "java/oraclejdk",
+            "java/openjdk"
+        ]
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/skylot/jadx/releases/download/v$version/jadx-$version.zip"
+    },
+    "bin": [
+        "bin/jadx.bat",
+        "bin/jadx-gui.bat"
+    ]
+}
