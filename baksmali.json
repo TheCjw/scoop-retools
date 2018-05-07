@@ -1,0 +1,19 @@
+{
+    "homepage": "https://github.com/JesusFreke/smali",
+    "version": "2.2.2",
+    "hash": "cf7484d8c090fedfa9cd35215144ffabda43c30afd35e00b57c1cf53bde4c66f",
+    "url": "https://bitbucket.org/JesusFreke/smali/downloads/baksmali-2.2.2.jar",
+    "suggest": {
+        "JDK": [
+            "java/oraclejdk",
+            "java/openjdk"
+        ]
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://bitbucket.org/JesusFreke/smali/downloads/baksmali-$version.jar"
+    },
+    "extract_dir": "jd-gui-windows-$version",
+    "bin": "baksmali.bat",
+    "pre_install": "\"@java -Xmx2G -jar \"\"$dir\\baksmali-$version.jar\"\" %*\" | out-file -en oem \"$dir\\baksmali.bat\""
+}

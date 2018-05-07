@@ -1,0 +1,18 @@
+{
+    "homepage": "https://github.com/JesusFreke/smali",
+    "version": "2.2.2",
+    "hash": "5ec0ce98146d36c5826f1fbf362180a0a264ce0a31d50b8c24833975b47d98e6",
+    "url": "https://bitbucket.org/JesusFreke/smali/downloads/smali-2.2.2.jar",
+    "suggest": {
+        "JDK": [
+            "java/oraclejdk",
+            "java/openjdk"
+        ]
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://bitbucket.org/JesusFreke/smali/downloads/smali-$version.jar"
+    },
+    "bin": "smali.bat",
+    "pre_install": "\"@java -Xmx2G -jar \"\"$dir\\smali-$version.jar\"\" %*\" | out-file -en oem \"$dir\\smali.bat\""
+}

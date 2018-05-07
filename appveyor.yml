@@ -1,0 +1,26 @@
+version: "{build}-{branch}"
+
+environment:
+  scoop: C:\projects\scoop
+  scoop_home: C:\projects\scoop\apps\scoop\current
+
+branches:
+  except:
+    - gh-pages
+
+init:
+  - ps: (get-psprovider 'FileSystem').Home = 'c:\projects\'
+  - ps: iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
+
+build: off
+
+test_script:
+  - ps: ./bin/checkver.ps1
+  - ps: ./bin/checkurls.ps1
+  - ps: |
+      Get-ChildItem .\*.json | % { 
+        Write-Host "Testing" $_.BaseName
+        scoop install $_.FullName 
+      }
+  - ps: scoop list
+
