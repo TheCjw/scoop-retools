@@ -15,12 +15,16 @@ init:
 build: off
 
 test_script:
-  - ps: ./bin/checkver.ps1
   - ps: ./bin/checkurls.ps1
   - ps: |
       Get-ChildItem .\*.json | % { 
-        Write-Host "Testing" $_.BaseName
+        ./bin/checkver.ps1 $_.BaseName -u
+      }
+  - ps: |
+      Get-ChildItem .\*.json | % { 
+        Write-Host "Install" $_.BaseName
         scoop install $_.FullName 
+        scoop which $_.BaseName
       }
   - ps: scoop list
 
