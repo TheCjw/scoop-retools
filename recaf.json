@@ -1,0 +1,14 @@
+{
+  "homepage": "https://github.com/Col-E/Recaf",
+  "version": "0.9",
+  "hash": "926cf3ab504e991b1ee7ec2e7202966173d8d5be53af7f1454be947cee97986d",
+  "url": "https://github.com/Col-E/Recaf/releases/download/0.9/recaf.0.9.zip",
+  "suggest": {
+      "JDK": [
+          "java/oraclejdk",
+          "java/openjdk"
+      ]
+  },
+  "bin": "recaf.bat",
+  "pre_install": "\"@echo off\nstart \"\"recaf\"\" /B javaw -jar \"\"$dir\\recaf.jar\"\" %*\" | out-file -en oem \"$dir\\recaf.bat\""
+}
