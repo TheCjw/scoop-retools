@@ -1,0 +1,18 @@
+{
+    "homepage": "https://github.com/google/android-classyshark",
+    "version": "8.1",
+    "hash": "73f0f8854a564d0eec4550fd69ebc239a38ae82f57e95cffb45890ba1b2e8098",
+    "url": "https://github.com/google/android-classyshark/releases/download/8.1/ClassyShark.jar",
+    "suggest": {
+        "JDK": [
+            "java/oraclejdk",
+            "java/openjdk"
+        ]
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/google/android-classyshark/releases/download/$version/ClassyShark.jar"
+    },
+    "bin": "ClassyShark.bat",
+    "pre_install": "\"@java -jar \"\"$dir\\ClassyShark.jar\"\" %*\" | out-file -en oem \"$dir\\ClassyShark.bat\""
+}
