@@ -14,5 +14,5 @@
         "url": "https://github.com/iBotPeaches/Apktool/releases/download/v$version/apktool_$version.jar"
     },
     "bin": "apktool.bat",
-    "pre_install": "\"@java -Xmx2G -jar \"\"$dir\\apktool_$version.jar\"\" %*\" | out-file -en oem \"$dir\\apktool.bat\""
+    "pre_install": "\"@java -jar \"\"$dir\\apktool_$version.jar\"\" %*\" | out-file -en oem \"$dir\\apktool.bat\""
 }
