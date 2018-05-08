@@ -1,4 +1,6 @@
-# scoop-retools [![Build Status]][Appveyor]
+# scoop-retools 
+
+[![Build Status]][Appveyor]
 
 Scoop bucket for reverse engineering tools.
 
