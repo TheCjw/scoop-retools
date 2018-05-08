@@ -13,7 +13,6 @@
     "autoupdate": {
         "url": "https://bitbucket.org/JesusFreke/smali/downloads/baksmali-$version.jar"
     },
-    "extract_dir": "jd-gui-windows-$version",
     "bin": "baksmali.bat",
     "pre_install": "\"@java -Xmx2G -jar \"\"$dir\\baksmali-$version.jar\"\" %*\" | out-file -en oem \"$dir\\baksmali.bat\""
 }
