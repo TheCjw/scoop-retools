@@ -5,6 +5,7 @@ Scoop bucket for reverse engineering tools.
 ### Usage
 
 1. Install [scoop](https://github.com/lukesampson/scoop)
+
 2. Add this bucket to scoop:
 ```bash
 scoop bucket add retools https://github.com/TheCjw/scoop-retools.git
