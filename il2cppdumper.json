@@ -1,0 +1,11 @@
+{
+    "homepage": "https://github.com/Perfare/Il2CppDumper",
+    "version": "3.2.0",
+    "hash": "a03f25681c29ae6fdbe5cf8acc1aab1e06d4eb67b7570697c3a8786155ba7a27",
+    "url": "https://github.com/Perfare/Il2CppDumper/releases/download/v3.2.0/Il2CppDumper-v3.2.0.zip",
+    "checkver": "github",
+    "bin": "Il2CppDumper.exe",
+    "autoupdate": {
+        "url": "https://github.com/Perfare/Il2CppDumper/releases/download/v$version/Il2CppDumper-v$version.zip"
+    }
+}
