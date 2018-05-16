@@ -1,0 +1,27 @@
+{
+    "homepage": "https://github.com/CalebFenton/simplify",
+    "version": "1.2.0",
+    "hash": [
+        "4192e894233955ab6f2dfd5f0e7e7416d1d55d512b247bbb0025ca62dda4b128",
+        "099afcd448d6dba8627bb6d291efa4cd226d30a9e25abe2808335bd2429a2ae1"
+    ],
+    "url": [
+        "https://github.com/CalebFenton/simplify/releases/download/v1.2.0/simplify-1.2.0.jar",
+        "https://github.com/CalebFenton/simplify/releases/download/v1.2.0/smalivm-1.2.0.jar"
+    ],
+    "suggest": {
+        "JDK": [
+            "java/oraclejdk",
+            "java/openjdk"
+        ]
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "url": [
+            "https://github.com/CalebFenton/simplify/releases/download/v$version/simplify-$version.jar",
+            "https://github.com/CalebFenton/simplify/releases/download/v$version/smalivm-$version.jar"
+        ]
+    },
+    "bin": "simplify.bat",
+    "pre_install": "\"@java -jar \"\"$dir\\simplify-$version.jar\"\" %*\" | out-file -en oem \"$dir\\simplify.bat\""
+}
