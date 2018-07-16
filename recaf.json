@@ -1,13 +1,17 @@
 {
   "homepage": "https://github.com/Col-E/Recaf",
-  "version": "0.9",
-  "hash": "926cf3ab504e991b1ee7ec2e7202966173d8d5be53af7f1454be947cee97986d",
-  "url": "https://github.com/Col-E/Recaf/releases/download/0.9/recaf.0.9.zip",
+  "version": "1.4.1",
+  "hash": "c4e46c403578c6b7055aa2a373ffd9df9207342ad567d1aced22d1e957261638",
+  "url": "https://github.com/Col-E/Recaf/releases/download/1.4.1/recaf-1.4.1.jar",
   "suggest": {
       "JDK": [
           "java/oraclejdk",
           "java/openjdk"
       ]
+  },
+  "checkver": "github",
+  "autoupdate": {
+    "url": "https://github.com/Col-E/Recaf/releases/download/$version/recaf-$version.jar"
   },
   "bin": "recaf.bat",
   "pre_install": "\"@echo off\nstart \"\"recaf\"\" /B javaw -jar \"\"$dir\\recaf.jar\"\" %*\" | out-file -en oem \"$dir\\recaf.bat\""
