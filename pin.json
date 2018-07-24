@@ -1,8 +1,8 @@
 {
     "homepage": "https://software.intel.com/en-us/articles/pin-a-dynamic-binary-instrumentation-tool",
-    "version": "3.6",
+    "version": "3.7",
     "hash": "789c960b80432cefb7f77b9700db744f725d99744069d15481ab986cd8785fff",
-    "url": "http://software.intel.com/sites/landingpage/pintool/downloads/pin-3.6-97554-g31f0a167d-msvc-windows.zip",
-    "extract_dir": "pin-3.6-97554-g31f0a167d-msvc-windows",
+    "url": "https://software.intel.com/sites/landingpage/pintool/downloads/pin-3.7-97619-g0d0c92f4f-msvc-windows.zip",
+    "extract_dir": "pin-3.7-97619-g0d0c92f4f-msvc-windows",
     "bin": "pin.exe"
 }
