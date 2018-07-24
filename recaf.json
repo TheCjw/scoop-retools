@@ -1,8 +1,8 @@
 {
   "homepage": "https://github.com/Col-E/Recaf",
-  "version": "1.4.1",
-  "hash": "c4e46c403578c6b7055aa2a373ffd9df9207342ad567d1aced22d1e957261638",
-  "url": "https://github.com/Col-E/Recaf/releases/download/1.4.1/recaf-1.4.1.jar",
+  "version": "1.5.1",
+  "hash": "5bf32f472c327398c87ba6b1f584362d5bac28d754d6936e5fc91ca73f7c3930",
+  "url": "https://github.com/Col-E/Recaf/releases/download/1.5.1/recaf-1.5.1.jar",
   "suggest": {
       "JDK": [
           "java/oraclejdk",
