@@ -4,5 +4,8 @@
     "hash": "48012285cba0b98328c6f94c0d672237421741605e061e726b42676973aa81ab",
     "url": "https://software.intel.com/sites/landingpage/pintool/downloads/pin-3.7-97619-g0d0c92f4f-msvc-windows.zip",
     "extract_dir": "pin-3.7-97619-g0d0c92f4f-msvc-windows",
-    "bin": "pin.exe"
+    "bin": "pin.exe",
+    "env_set": {
+      "PIN_DIR": "$dir"
+    }
 }
