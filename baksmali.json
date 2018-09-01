@@ -1,7 +1,7 @@
 {
     "homepage": "https://github.com/JesusFreke/smali",
     "version": "2.2.5",
-    "hash": "7bd1677594b917f6c538b7ac7e8958294a94ec95e99efecda5aee935060138b6",
+    "hash": "e12c5c9c140ee63487037ad8dc6d5ebd43c0185e1a56524f554d0a845240ec06",
     "url": "https://bitbucket.org/JesusFreke/smali/downloads/baksmali-2.2.5.jar",
     "suggest": {
         "JDK": [
