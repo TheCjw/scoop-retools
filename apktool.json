@@ -1,8 +1,8 @@
 {
     "homepage": "https://github.com/iBotPeaches/Apktool",
-    "version": "2.3.3",
-    "hash": "0e543660bf2d16fe7c543d4034ef505a6ddccb883416c8aa68d1a1d779b057f2",
-    "url": "https://github.com/iBotPeaches/Apktool/releases/download/v2.3.3/apktool_2.3.3.jar",
+    "version": "2.3.4",
+    "hash": "758b1bd58f9c9dd5ca85258d31c75f32e5878a502e3d75c66f3bfacf74b9dc1d",
+    "url": "https://github.com/iBotPeaches/Apktool/releases/download/v2.3.4/apktool_2.3.4.jar",
     "suggest": {
         "JDK": [
             "java/oraclejdk",
