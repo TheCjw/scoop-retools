@@ -1,0 +1,18 @@
+{
+    "homepage": "https://github.com/deathmarine/Luyten",
+    "version": "0.5.3",
+    "hash": "633bba4fcadd4bfb7f55854a34ee101399df5bf90dc44a83cc276d60e3588bbe",
+    "url": "https://github.com/deathmarine/Luyten/releases/download/v0.5.3/luyten-0.5.3.exe",
+    "suggest": {
+        "JDK": [
+            "java/oraclejdk",
+            "java/openjdk"
+        ]
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/deathmarine/Luyten/releases/download/v$version/luyten-$version.exe"
+    },
+    "pre_install": "Move-Item $dir/luyten-$version.exe $dir/luyten.exe",
+    "bin": "luyten.exe"
+}
