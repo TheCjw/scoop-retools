@@ -1,0 +1,16 @@
+{
+    "homepage": "http://www.smidgeonsoft.prohosting.com/pebrowse-pro-interactive-debugger.html",
+    "version": "v6.4.3",
+    "hash": "d118dcea5dd67abd64f830c03802d0da586aa59d53363e42984bd4cf4cd60080",
+    "url": "http://www.smidgeonsoft.com/download/PEBrowseDbg64SetupV6_4_3.msi",
+    "bin": "PEBrowseDbg64.exe",
+    "shortcuts": [
+        [
+            "PEBrowseDbg64.exe",
+            "PEBrowseDbg64"
+        ]
+    ],
+    "persist": [
+      "PEBrowseDbg64.exe.config"
+    ]
+}
