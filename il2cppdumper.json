@@ -1,8 +1,8 @@
 {
     "homepage": "https://github.com/Perfare/Il2CppDumper",
-    "version": "3.3.13",
-    "hash": "c4310aadc317c2077d1d181bfac0c301e465e7ee2ac6e9525b2bc7b7ebaa7281",
-    "url": "https://github.com/Perfare/Il2CppDumper/releases/download/v3.3.13/Il2CppDumper-v3.3.13.zip",
+    "version": "3.3.14",
+    "hash": "88c5022531f20cd8a0ed36b6dac0ebca757e270b853de046d0d8ee1424adec4b",
+    "url": "https://github.com/Perfare/Il2CppDumper/releases/download/v3.3.14/Il2CppDumper-v3.3.14.zip",
     "checkver": "github",
     "bin": "Il2CppDumper.exe",
     "autoupdate": {
