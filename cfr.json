@@ -1,8 +1,8 @@
 {
     "homepage": "http://www.benf.org/other/cfr/",
-    "version": "0_133",
-    "hash": "md5:26c030ca99ae115b7cacb6656e4aa11f",
-    "url": "http://www.benf.org/other/cfr/cfr_0_133.jar",
+    "version": "0_134",
+    "hash": "md5:077e3a5b72ed5701aaa372467b5ebbf5",
+    "url": "http://www.benf.org/other/cfr/cfr_0_134.jar",
     "suggest": {
         "JDK": [
             "java/oraclejdk",
