@@ -1,57 +1,57 @@
 {
-  "homepage": "https://github.com/libimobiledevice-win32/imobiledevice-net",
-  "description": "A cross-platform protocol library to communicate with iOS devices, http://www.libimobiledevice.org.",
-  "version": "1.2.72",
-  "architecture": {
-    "64bit": {
-      "url": "https://github.com/libimobiledevice-win32/imobiledevice-net/releases/download/v1.2.72/iMobileDevice-net.1.2.72.nupkg",
-      "hash": "4c91fd91e9e281b6b0514acd2019b6fe878e57ad75612f7d1a223d22fec6228a",
-      "extract_dir": "runtimes/win-x64/native"
-    },
-    "32bit": {
-      "url": "https://github.com/libimobiledevice-win32/imobiledevice-net/releases/download/v1.2.72/iMobileDevice-net.1.2.72.nupkg",
-      "hash": "4c91fd91e9e281b6b0514acd2019b6fe878e57ad75612f7d1a223d22fec6228a",
-      "extract_dir": "runtimes/win-x86/native"
-    }
-  },
-  "bin": [
-    "idevice_id.exe",
-    "ideviceactivation.exe",
-    "idevicebackup.exe",
-    "idevicebackup2.exe",
-    "idevicecrashreport.exe",
-    "idevicedate.exe",
-    "idevicedebug.exe",
-    "idevicedebugserverproxy.exe",
-    "idevicediagnostics.exe",
-    "ideviceenterrecovery.exe",
-    "ideviceimagemounter.exe",
-    "ideviceinfo.exe",
-    "ideviceinstaller.exe",
-    "idevicename.exe",
-    "idevicenotificationproxy.exe",
-    "idevicepair.exe",
-    "ideviceprovision.exe",
-    "idevicescreenshot.exe",
-    "idevicesyslog.exe",
-    "iproxy.exe",
-    "irecovery.exe",
-    "plist_cmp.exe",
-    "plist_test.exe",
-    "plistutil.exe",
-    "usbmuxd.exe"
-  ],
-  "checkver": "github",
-  "autoupdate": {
+    "homepage": "https://github.com/libimobiledevice-win32/imobiledevice-net",
+    "description": "A cross-platform protocol library to communicate with iOS devices, http://www.libimobiledevice.org.",
+    "version": "1.2.76",
     "architecture": {
-      "64bit": {
-        "url": "https://github.com/libimobiledevice-win32/imobiledevice-net/releases/download/v$version/iMobileDevice-net.$version.nupkg",
-        "extract_dir": "runtimes/win-x64/native"
-      },
-      "32bit": {
-        "url": "https://github.com/libimobiledevice-win32/imobiledevice-net/releases/download/v$version/iMobileDevice-net.$version.nupkg",
-        "extract_dir": "runtimes/win-x86/native"
-      }
+        "64bit": {
+            "url": "https://github.com/libimobiledevice-win32/imobiledevice-net/releases/download/v1.2.76/iMobileDevice-net.1.2.76.nupkg",
+            "hash": "36ce7c07635f534825935ba62f9ea139de2fb937d7b5623a9ee2c94a914b9075",
+            "extract_dir": "runtimes/win-x64/native"
+        },
+        "32bit": {
+            "url": "https://github.com/libimobiledevice-win32/imobiledevice-net/releases/download/v1.2.76/iMobileDevice-net.1.2.76.nupkg",
+            "hash": "36ce7c07635f534825935ba62f9ea139de2fb937d7b5623a9ee2c94a914b9075",
+            "extract_dir": "runtimes/win-x86/native"
+        }
+    },
+    "bin": [
+        "idevice_id.exe",
+        "ideviceactivation.exe",
+        "idevicebackup.exe",
+        "idevicebackup2.exe",
+        "idevicecrashreport.exe",
+        "idevicedate.exe",
+        "idevicedebug.exe",
+        "idevicedebugserverproxy.exe",
+        "idevicediagnostics.exe",
+        "ideviceenterrecovery.exe",
+        "ideviceimagemounter.exe",
+        "ideviceinfo.exe",
+        "ideviceinstaller.exe",
+        "idevicename.exe",
+        "idevicenotificationproxy.exe",
+        "idevicepair.exe",
+        "ideviceprovision.exe",
+        "idevicescreenshot.exe",
+        "idevicesyslog.exe",
+        "iproxy.exe",
+        "irecovery.exe",
+        "plist_cmp.exe",
+        "plist_test.exe",
+        "plistutil.exe",
+        "usbmuxd.exe"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/libimobiledevice-win32/imobiledevice-net/releases/download/v$version/iMobileDevice-net.$version.nupkg",
+                "extract_dir": "runtimes/win-x64/native"
+            },
+            "32bit": {
+                "url": "https://github.com/libimobiledevice-win32/imobiledevice-net/releases/download/v$version/iMobileDevice-net.$version.nupkg",
+                "extract_dir": "runtimes/win-x86/native"
+            }
+        }
     }
-  }
 }
