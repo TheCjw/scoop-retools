@@ -1,8 +1,8 @@
 {
     "homepage": "http://www.benf.org/other/cfr/",
-    "version": "0.138",
-    "hash": "md5:d353bc23a1a6c9036505968a6eb9fc29",
-    "url": "https://www.benf.org/other/cfr/cfr-0.138.jar",
+    "version": "0.139",
+    "hash": "md5:ea581b24f9dd0c5a8c51369ca2e5be07",
+    "url": "https://www.benf.org/other/cfr/cfr-0.139.jar",
     "suggest": {
         "JDK": [
             "java/oraclejdk",
@@ -10,5 +10,16 @@
         ]
     },
     "bin": "cfr.bat",
-    "pre_install": "\"@java -jar \"\"$dir\\cfr_$version.jar\"\" %*\" | out-file -en oem \"$dir\\cfr.bat\""
+    "pre_install": "\"@java -jar \"\"$dir\\cfr_$version.jar\"\" %*\" | out-file -en oem \"$dir\\cfr.bat\"",
+    "checkver": {
+        "url": "https://www.benf.org/other/cfr/",
+        "re": "cfr-([\\d.]+).jar"
+    },
+    "autoupdate": {
+        "url": "https://www.benf.org/other/cfr/cfr-$version.jar",
+        "hash": {
+            "url": "https://www.benf.org/other/cfr/",
+            "find": "md5:\\s+([a-fA-F0-9]{32})"
+        }
+    }
 }
