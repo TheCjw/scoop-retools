@@ -1,18 +1,21 @@
 {
-  "homepage": "https://github.com/Col-E/Recaf",
-  "version": "1.8.3",
-  "hash": "b2a4dad6bdc44c5b165e56cd6320b5cc56249ea3627a232396642f9747d68d9c",
-  "url": "https://github.com/Col-E/Recaf/releases/download/1.8.3/recaf-1.8.3.jar",
-  "suggest": {
-      "JDK": [
-          "java/oraclejdk",
-          "java/openjdk"
-      ]
-  },
-  "checkver": "github",
-  "autoupdate": {
-    "url": "https://github.com/Col-E/Recaf/releases/download/$version/recaf-$version.jar"
-  },
-  "bin": "recaf.bat",
-  "pre_install": "\"@echo off\nstart \"\"recaf\"\" /B javaw -jar \"\"$dir\\recaf.jar\"\" %*\" | out-file -en oem \"$dir\\recaf.bat\""
+    "homepage": "https://github.com/Col-E/Recaf",
+    "version": "1.9.0",
+    "hash": "7060de490090228c81935261e9a4580b39f2705045bd1ea0858de27abb9949ae",
+    "url": "https://github.com/Col-E/Recaf/releases/download/1.9.0/recaf-1.9.0.jar",
+    "suggest": {
+        "JDK": [
+            "java/oraclejdk",
+            "java/openjdk"
+        ]
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/Col-E/Recaf/releases/download/$version/recaf-$version.jar"
+    },
+    "bin": "recaf.bat",
+    "pre_install": [
+        "\"@echo off",
+        "start \"\"recaf\"\" /B javaw -jar \"\"$dir\\recaf.jar\"\" %*\" | out-file -en oem \"$dir\\recaf.bat\""
+    ]
 }
