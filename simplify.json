@@ -1,13 +1,13 @@
 {
     "homepage": "https://github.com/CalebFenton/simplify",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "hash": [
-        "4192e894233955ab6f2dfd5f0e7e7416d1d55d512b247bbb0025ca62dda4b128",
-        "099afcd448d6dba8627bb6d291efa4cd226d30a9e25abe2808335bd2429a2ae1"
+        "d23c2c48c4e38d5271da8d3a09accdc4ac83f4e9d0cc4d078739d76cda559645",
+        "f18412e32d064b814c415ea41631b310796ab29c064129ebbafc0872cef7be93"
     ],
     "url": [
-        "https://github.com/CalebFenton/simplify/releases/download/v1.2.0/simplify-1.2.0.jar",
-        "https://github.com/CalebFenton/simplify/releases/download/v1.2.0/smalivm-1.2.0.jar"
+        "https://github.com/CalebFenton/simplify/releases/download/v1.2.1/simplify-1.2.1.jar",
+        "https://github.com/CalebFenton/simplify/releases/download/v1.2.1/smalivm-1.2.1.jar"
     ],
     "suggest": {
         "JDK": [
