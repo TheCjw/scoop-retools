@@ -1,6 +1,8 @@
 {
     "homepage": "https://github.com/skylot/jadx",
+    "description": "Dex to Java decompiler.",
     "version": "0.9.0",
+    "license": "Apache 2.0",
     "hash": "d2f49df069df8bffc20651b182c5eaa483a7d12abc00b2099bfd836fdd2bd103",
     "url": "https://github.com/skylot/jadx/releases/download/v0.9.0/jadx-0.9.0.zip",
     "suggest": {

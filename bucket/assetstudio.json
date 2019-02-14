@@ -1,6 +1,8 @@
 {
     "homepage": "https://github.com/Perfare/AssetStudio",
+    "description": "AssetStudio is a tool for exploring, extracting and exporting assets and assetbundles.",
     "version": "0.8.0",
+    "license": "MIT",
     "architecture": {
         "64bit": {
             "url": "https://github.com/Perfare/AssetStudio/releases/download/v0.8.0/UnityStudio.x64.v0.8.0.0.zip",

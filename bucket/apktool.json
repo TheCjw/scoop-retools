@@ -1,6 +1,8 @@
 {
     "homepage": "https://github.com/iBotPeaches/Apktool",
+    "description": "A tool for reverse engineering Android apk files https://ibotpeaches.github.io/Apktool",
     "version": "2.3.4",
+    "license": "Apache 2.0",
     "hash": "758b1bd58f9c9dd5ca85258d31c75f32e5878a502e3d75c66f3bfacf74b9dc1d",
     "url": "https://github.com/iBotPeaches/Apktool/releases/download/v2.3.4/apktool_2.3.4.jar",
     "suggest": {

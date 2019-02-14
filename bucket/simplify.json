@@ -1,6 +1,8 @@
 {
     "homepage": "https://github.com/CalebFenton/simplify",
+    "description": "Generic Android Deobfuscator",
     "version": "1.2.1",
+    "license": "https://github.com/CalebFenton/simplify/blob/master/LICENSE.COMMERCIAL",
     "hash": [
         "d23c2c48c4e38d5271da8d3a09accdc4ac83f4e9d0cc4d078739d76cda559645",
         "f18412e32d064b814c415ea41631b310796ab29c064129ebbafc0872cef7be93"

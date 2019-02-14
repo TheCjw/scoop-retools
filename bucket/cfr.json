@@ -1,6 +1,8 @@
 {
     "homepage": "http://www.benf.org/other/cfr/",
+    "description": "A java decompiler",
     "version": "0.139",
+    "license": "MIT",
     "hash": "md5:ea581b24f9dd0c5a8c51369ca2e5be07",
     "url": "https://www.benf.org/other/cfr/cfr-0.139.jar",
     "suggest": {

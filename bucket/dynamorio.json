@@ -1,6 +1,8 @@
 {
     "homepage": "https://dynamorio.org/",
+    "description": "DynamoRIO is a runtime code manipulation system that supports code transformations on any part of a program, while it executes.",
     "version": "7.0.0-RC1",
+    "license": "https://raw.githubusercontent.com/DynamoRIO/dynamorio/master/License.txt",
     "hash": "73b6d04604a85978bed65419a21f67a4a5429f8ed212f8e48f0550e97e5445c2",
     "url": "https://github.com/DynamoRIO/dynamorio/releases/download/release_7_0_0_rc1/DynamoRIO-Windows-7.0.0-RC1.zip",
     "extract_dir": "DynamoRIO-Windows-7.0.0-RC1",
