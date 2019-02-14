@@ -18,11 +18,11 @@ scoop install smali baksmali apktool
 
 ## Using [DynamoRIO](https://www.dynamorio.org/)
 
-### Bulid [WinAFL](https://github.com/ivanfratric/winafl)
+### Bulid [WinAFL](https://github.com/googleprojectzero/winafl)
 
 ```bash
 scoop install dynamorio
-git clone https://github.com/ivanfratric/winafl
+git clone https://github.com/googleprojectzero/winafl
 cd winafl
 # Compile 32bit tool
 mkdir build32
