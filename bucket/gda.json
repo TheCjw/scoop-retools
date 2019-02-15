@@ -1,0 +1,15 @@
+{
+    "homepage": "http://www.gda.wiki:9090/index.php",
+    "version": "3.6.1",
+    "license": "Freeware",
+    "hash": "0e0863cc386cbff72afa4878badb4e4b8d8c6413d2480b5b5c59afa10d974e1b",
+    "url": "http://www.gda.wiki:9090/down/GDA3.61.zip",
+    "extract_dir": "GDA3.61",
+    "bin": "GDA3.61.exe",
+    "shortcuts": [
+        [
+            "GDA3.61.exe",
+            "GDA"
+        ]
+    ]
+}
