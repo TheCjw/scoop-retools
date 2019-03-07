@@ -1,0 +1,22 @@
+{
+  "homepage": "https://ghidra-sre.org/",
+  "description": "Ghidra is a software reverse engineering (SRE) framework created and maintained by the National Security Agency Research Directorate.",
+  "version": "9.0",
+  "license": "Apache-2.0",
+  "hash": "3b65d29024b9decdbb1148b12fe87bcb7f3a6a56ff38475f5dc9dd1cfc7fd6b2",
+  "url": "https://ghidra-sre.org/ghidra_9.0_PUBLIC_20190228.zip",
+  "extract_dir": "ghidra_9.0",
+  "bin": "ghidraRun.bat",
+  "shortcuts": [
+      [
+          "ghidraRun.bat",
+          "Ghidra"
+      ]
+  ],
+  "suggest": {
+    "JDK": [
+        "java/oraclejdk",
+        "java/openjdk"
+    ]
+  }
+}
