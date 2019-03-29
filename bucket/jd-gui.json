@@ -1,27 +1,20 @@
 {
-    "homepage": "https://github.com/java-decompiler/jd-gui",
-    "description": "A standalone Java Decompiler GUI",
-    "version": "1.4.1",
-    "license": "GPL 3.0",
-    "hash": "a7136cf18a76f2976b8a52684ae3aae1025d229d616c669e301152056951cf61",
-    "extract_dir": "jd-gui-windows-1.4.1",
-    "bin": "jd-gui.exe",
-    "shortcuts": [
-        [
-            "jd-gui.exe",
-            "JD-GUI"
-        ]
-    ],
-    "url": "https://github.com/java-decompiler/jd-gui/releases/download/v1.4.1/jd-gui-windows-1.4.1.zip",
-    "suggest": {
-        "JDK": [
-            "java/oraclejdk",
-            "java/openjdk"
-        ]
-    },
-    "checkver": "github",
-    "autoupdate": {
-        "url": "https://github.com/java-decompiler/jd-gui/releases/download/v$version/jd-gui-windows-$version.zip",
-        "extract_dir": "jd-gui-windows-$version"
-    }
+  "homepage": "https://github.com/java-decompiler/jd-gui",
+  "description": "A standalone Java Decompiler GUI.",
+  "version": "1.4.1",
+  "license": "GPL 3.0",
+  "hash": "61ac659759ce5e25a5e35f8835ffd7ad36204eef0d2c8c22e7b5e768423e4dbc",
+  "url": "https://github.com/java-decompiler/jd-gui/releases/download/v1.4.1/jd-gui-1.4.1.jar",
+  "suggest": {
+      "JDK": [
+          "java/oraclejdk",
+          "java/openjdk"
+      ]
+  },
+  "checkver": "github",
+  "autoupdate": {
+      "url": "https://github.com/java-decompiler/jd-gui/releases/download/v$version/jd-gui-$version.jar"
+  },
+  "bin": "jd-gui.bat",
+  "pre_install": "\"@echo off\nstart \"\"jd-gui\"\" /B javaw -jar \"\"$dir\\jd-gui-$version.jar\"\" %*\" | out-file -en oem \"$dir\\jd-gui.bat\""
 }
