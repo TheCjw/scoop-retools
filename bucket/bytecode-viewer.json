@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/Konloch/bytecode-viewer",
     "description": "A Java 8 Jar & Android APK Reverse Engineering Suite (Decompiler, Editor, Debugger & More) https://bytecodeviewer.com",
-    "version": "2.9.11",
+    "version": "2.9.12",
     "license": "GPL 3.0",
-    "hash": "3ff445b8ded26c8870c4cfc1e3c0e4368e19bc6e80567b79d5d34cd42e63db51",
-    "url": "https://github.com/Konloch/bytecode-viewer/releases/download/2.9.11/Bytecode-Viewer-2.9.11.jar",
+    "hash": "e3f034542d0178f3ee4aaeee474436bf184b3eec9dee2151ac3897d73e6266fd",
+    "url": "https://github.com/Konloch/bytecode-viewer/releases/download/v2.9.12/Bytecode-Viewer-2.9.12.jar",
     "suggest": {
         "JDK": [
             "java/oraclejdk",
@@ -13,8 +13,11 @@
     },
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/Konloch/bytecode-viewer/releases/download/$version/Bytecode-Viewer-$version.jar"
+        "url": "https://github.com/Konloch/bytecode-viewer/releases/download/v$version/Bytecode-Viewer-$version.jar"
     },
     "bin": "Bytecode-Viewer.bat",
-    "pre_install": "\"@echo off\nstart \"\"Bytecode-Viewer\"\" /B javaw -jar \"\"$dir\\Bytecode-Viewer-$version.jar\"\" %*\" | out-file -en oem \"$dir\\Bytecode-Viewer.bat\""
+    "pre_install": [
+        "\"@echo off",
+        "start \"\"Bytecode-Viewer\"\" /B javaw -jar \"\"$dir\\Bytecode-Viewer-$version.jar\"\" %*\" | out-file -en oem \"$dir\\Bytecode-Viewer.bat\""
+    ]
 }
