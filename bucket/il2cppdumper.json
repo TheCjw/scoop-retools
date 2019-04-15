@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/Perfare/Il2CppDumper",
     "description": "Get types, methods, fields and so on from Unity Il2Cpp binary file.",
-    "version": "4.2.5",
+    "version": "4.4.2",
     "license": "MIT",
-    "hash": "4c72bd76bc2f1518d9c02c6239f59774f47ec0bab27da658f82695fa4e45a9d7",
-    "url": "https://github.com/Perfare/Il2CppDumper/releases/download/v4.2.5/Il2CppDumper-v4.2.5.zip",
+    "hash": "dea33c48308435806c95ec2e9bd6a8b3b577f1582813a47a6585c5ed8177334c",
+    "url": "https://github.com/Perfare/Il2CppDumper/releases/download/v4.4.2/Il2CppDumper-v4.4.2.zip",
     "checkver": "github",
     "bin": "Il2CppDumper.exe",
     "autoupdate": {
