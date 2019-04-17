@@ -12,10 +12,10 @@
         ]
     },
     "shortcuts": [
-      [
-          "jd-gui.bat",
-          "Java Decompiler"
-      ]
+        [
+            "jd-gui.bat",
+            "Java Decompiler"
+        ]
     ],
     "checkver": "github",
     "autoupdate": {

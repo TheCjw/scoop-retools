@@ -16,5 +16,8 @@
         "url": "https://github.com/google/android-classyshark/releases/download/$version/ClassyShark.jar"
     },
     "bin": "ClassyShark.bat",
-    "pre_install": "\"@echo off\nstart \"\"ClassyShark\"\" /B javaw -jar \"\"$dir\\ClassyShark.jar\"\" %*\" | out-file -en oem \"$dir\\ClassyShark.bat\""
+    "pre_install": [
+        "\"@echo off",
+        "start \"\"ClassyShark\"\" /B javaw -jar \"\"$dir\\ClassyShark.jar\"\" %*\" | out-file -en oem \"$dir\\ClassyShark.bat\""
+    ]
 }
