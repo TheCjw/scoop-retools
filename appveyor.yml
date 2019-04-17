@@ -16,10 +16,7 @@ build: off
 
 test_script:
   - ps: ./bin/checkurls.ps1
-  - ps: |
-      Get-ChildItem .\bucket\*.json | % { 
-        ./bin/checkver.ps1 $_.BaseName -u
-      }
+  - ps: ./bin/checkver.ps1 -f
   - ps: |
       Get-ChildItem .\bucket\*.json | % { 
         Write-Host "Install" $_.BaseName
