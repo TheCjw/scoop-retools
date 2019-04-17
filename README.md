@@ -18,13 +18,6 @@ scoop install smali baksmali apktool
 ```
 4. Done.
 
-## Apps List
-
-Apps included in this bucket:
-
-| Name |  |  
-
-
 ## Using [DynamoRIO](https://www.dynamorio.org/)
 
 ### Bulid [WinAFL](https://github.com/googleprojectzero/winafl)
