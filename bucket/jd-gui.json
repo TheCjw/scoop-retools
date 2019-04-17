@@ -11,6 +11,12 @@
             "java/openjdk"
         ]
     },
+    "shortcuts": [
+      [
+          "jd-gui.bat",
+          "Java Decompiler"
+      ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/java-decompiler/jd-gui/releases/download/v$version/jd-gui-$version.jar"
