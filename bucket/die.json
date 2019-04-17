@@ -1,0 +1,17 @@
+{
+    "homepage": "https://github.com/horsicq/DIE-engine",
+    "description": "Detect It Easy is a packer identifier.",
+    "version": "2.02",
+    "license": "MIT",
+    "hash": "56ce00363c319ee7635a4c7507c8baed28ee545d6f82b9813c0913aae0bbe29c",
+    "url": "https://github.com/horsicq/DIE-engine/releases/download/2.02/die_win32_portable_2.02.zip",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/horsicq/DIE-engine/releases/download/$version/die_win32_portable_$version.zip"
+    },
+    "extract_dir": "die_win32_portable",
+    "bin": [
+        "die.exe",
+        "diel.exe"
+    ]
+}
