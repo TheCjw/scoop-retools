@@ -1,15 +1,22 @@
 {
     "homepage": "http://www.gda.wiki:9090/index.php",
-    "version": "3.6.1",
+    "version": "3.63",
     "license": "Freeware",
-    "hash": "0e0863cc386cbff72afa4878badb4e4b8d8c6413d2480b5b5c59afa10d974e1b",
-    "url": "http://www.gda.wiki:9090/down/GDA3.61.zip",
-    "extract_dir": "GDA3.61",
-    "bin": "GDA3.61.exe",
+    "hash": "0594ce044fc90e79553b1d7e46574d25d24fb46f417b6d01c3cb295bc4243a3c",
+    "url": "http://www.gda.wiki:9090/down/GDA3.63.zip",
+    "bin": "GDA.exe",
     "shortcuts": [
         [
-            "GDA3.61.exe",
+            "GDA.exe",
             "GDA"
         ]
-    ]
+    ],
+    "pre_install": "Move-Item $dir/GDA*.exe $dir/GDA.exe",
+    "checkver": {
+        "url": "http://www.gda.wiki:9090/index.php",
+        "re": "GDA下载\\(.*\\s+v(?<version>[\\d\\w.]+)"
+    },
+    "autoupdate": {
+        "url": "http://www.gda.wiki:9090/down/GDA$version.zip"
+    }
 }
