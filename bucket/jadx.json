@@ -20,19 +20,17 @@
         "bin/jadx-gui.bat"
     ],
     "shortcuts": [
-      [
-          "bin/jadx-gui.bat",
-          "JADX GUI",
-          "",
-          "jadx-logo.ico"
-      ]
+        [
+            "bin/jadx-gui.bat",
+            "JADX GUI",
+            "",
+            "jadx-logo.ico"
+        ]
     ],
-    "pre_install": [
-      "Add-Type -AssemblyName System.IO.Compression.FileSystem
+    "pre_install": "Add-Type -AssemblyName System.IO.Compression.FileSystem
       $zip = [System.IO.Compression.ZipFile]::OpenRead(\"$dir\\lib\\jadx-gui-$version.jar\")
       $zip.Entries | Where-Object { $_.FullName -eq \"logos/jadx-logo.ico\" } | ForEach-Object { 
         [System.IO.Compression.ZipFileExtensions]::ExtractToFile($_, \"$dir\\jadx-logo.ico\", $true)
       }
       "
-    ]
 }
