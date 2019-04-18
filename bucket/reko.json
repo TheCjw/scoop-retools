@@ -13,12 +13,12 @@
             "hash": "023cfc9a465456f456d52ed2ca749511793e221247f0c7f48f72a3427404b55b",
             "extract_dir": "jklSoft/Reko",
             "bin": [
-              "WindowsDecompiler.exe",
-              [
-                  "decompile.exe",
-                  "reko",
-                  "reko"
-              ]
+                "WindowsDecompiler.exe",
+                [
+                    "decompile.exe",
+                    "reko",
+                    "reko"
+                ]
             ],
             "shortcuts": [
                 [
