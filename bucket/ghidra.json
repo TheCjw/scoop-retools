@@ -10,7 +10,9 @@
     "shortcuts": [
         [
             "ghidraRun.bat",
-            "Ghidra"
+            "Ghidra",
+            "",
+            "support/ghidra.ico"
         ]
     ],
     "suggest": {
