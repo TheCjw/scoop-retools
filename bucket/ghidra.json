@@ -23,7 +23,7 @@
     },
     "checkver": {
         "url": "https://ghidra-sre.org/",
-        "re": "ghidra_(?<version>[\\d|\\.]+)(?<tail>\\w+)\\.zip"
+        "re": "ghidra_(?<version>[\\d.]+)(?<tail>\\w+)\\.zip"
     },
     "autoupdate": {
         "url": "https://ghidra-sre.org/ghidra_$version$matchTail.zip",
