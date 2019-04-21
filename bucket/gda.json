@@ -1,9 +1,9 @@
 {
     "homepage": "http://www.gda.wiki:9090/index.php",
-    "version": "3.63",
+    "version": "3.64",
     "license": "Freeware",
-    "hash": "0594ce044fc90e79553b1d7e46574d25d24fb46f417b6d01c3cb295bc4243a3c",
-    "url": "http://www.gda.wiki:9090/down/GDA3.63.zip",
+    "hash": "6c485b600b02e98949c4ebf4472d64fe840f3ed16f31e9fe54665b48467927b1",
+    "url": "http://www.gda.wiki:9090/down/GDA3.64.zip",
     "bin": "GDA.exe",
     "shortcuts": [
         [
