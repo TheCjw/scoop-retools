@@ -27,6 +27,7 @@
     },
     "autoupdate": {
         "url": "https://ghidra-sre.org/ghidra_$version$matchTail.zip",
+        "extract_dir": "ghidra_$version",
         "hash": {
             "url": "https://ghidra-sre.org/",
             "find": "\\<code\\>\\s+([a-fA-F0-9]{64})"
