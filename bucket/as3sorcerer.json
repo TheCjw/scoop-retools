@@ -9,8 +9,7 @@
     "shortcuts": [
         [
             "as3s.exe",
-            "AS3 Sorcerer",
-            ""
+            "AS3 Sorcerer"
         ]
     ],
     "checkver": {
