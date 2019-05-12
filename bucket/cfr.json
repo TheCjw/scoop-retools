@@ -1,10 +1,10 @@
 {
     "homepage": "http://www.benf.org/other/cfr/",
     "description": "A java decompiler",
-    "version": "0.143",
+    "version": "0.144",
     "license": "MIT",
-    "hash": "md5:8a411f1a525b26c064712e087f105969",
-    "url": "https://www.benf.org/other/cfr/cfr-0.143.jar",
+    "hash": "md5:fad55e3c613832e6e378271b300e8b1c",
+    "url": "https://www.benf.org/other/cfr/cfr-0.144.jar",
     "suggest": {
         "JDK": [
             "java/oraclejdk",
