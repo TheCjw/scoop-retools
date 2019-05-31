@@ -14,7 +14,7 @@
     "pre_install": "Move-Item $dir/GDA*.exe $dir/GDA.exe",
     "checkver": {
         "url": "http://www.gda.wiki:9090/index.php",
-        "re": "GDA下载\\(.*\\s+v(?<version>[\\d\\w.]+)"
+        "re": "GDA下载\\(v(?<version>[\\d\\w.]+)"
     },
     "autoupdate": {
         "url": "http://www.gda.wiki:9090/down/GDA$version.zip"
