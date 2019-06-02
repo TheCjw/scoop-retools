@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/Konloch/bytecode-viewer",
     "description": "A Java 8 Jar & Android APK Reverse Engineering Suite (Decompiler, Editor, Debugger & More) https://bytecodeviewer.com",
-    "version": "2.9.19",
+    "version": "2.9.20",
     "license": "GPL 3.0",
-    "hash": "4be7bc15263975d7ee5a961ad7cfd2236068655bd579d87d3b1d94148880c454",
-    "url": "https://github.com/Konloch/bytecode-viewer/releases/download/v2.9.19/Bytecode-Viewer-2.9.19.jar",
+    "hash": "a74fa6a6b39fd720d78e2557a3b3f9f4b6f70156b29aaffa92b17c86dd86d1a4",
+    "url": "https://github.com/Konloch/bytecode-viewer/releases/download/v2.9.20/Bytecode-Viewer-2.9.20.jar",
     "suggest": {
         "JDK": [
             "java/oraclejdk",
