@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/Col-E/Recaf",
     "description": "A modern Java bytecode editor https://col-e.github.io/Recaf/",
-    "version": "1.14.0",
+    "version": "1.15.4",
     "license": "MIT",
-    "hash": "b1c9cdbb80fec54d0c6aab5f3e54eb35a9826365ea932cc840c853f7a5725543",
-    "url": "https://github.com/Col-E/Recaf/releases/download/1.14.0/recaf-1.14.0.jar",
+    "hash": "e2a4e9de993d9b7eb6de4247a68edb88961996e041fcf8a75bc2a6dcf7c2c591",
+    "url": "https://github.com/Col-E/Recaf/releases/download/1.15.4/recaf-1.15.4.jar",
     "suggest": {
         "JDK": [
             "java/oraclejdk",
