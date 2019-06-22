@@ -1,10 +1,10 @@
 {
     "homepage": "https://software.intel.com/en-us/articles/pin-a-dynamic-binary-instrumentation-tool",
-    "version": "3.7-97619",
+    "version": "3.10-97971",
     "license": "https://software.intel.com/en-us/articles/pin-a-binary-instrumentation-tool-license-agreement",
-    "hash": "48012285cba0b98328c6f94c0d672237421741605e061e726b42676973aa81ab",
-    "url": "https://software.intel.com/sites/landingpage/pintool/downloads/pin-3.7-97619-g0d0c92f4f-msvc-windows.zip",
-    "extract_dir": "pin-3.7-97619-g0d0c92f4f-msvc-windows",
+    "hash": "113067a02922837b111d434e7c72f471d4178e23f304a1bdcca643ff115ccb50",
+    "url": "https://software.intel.com/sites/landingpage/pintool/downloads/pin-3.10-97971-gc5e41af74-msvc-windows.zip",
+    "extract_dir": "pin-3.10-97971-gc5e41af74-msvc-windows",
     "bin": "pin.exe",
     "env_set": {
         "PIN_DIR": "$dir"
