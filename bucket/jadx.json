@@ -3,7 +3,7 @@
     "description": "Dex to Java decompiler.",
     "version": "1.0.0",
     "license": "Apache 2.0",
-    "hash": "72e955e512301a713f9533f7bb24fe08d23b481dac2de38815a89854758891dd",
+    "hash": "a1d9e9fb1bd3552b03241609c8a2b07ffd97e92e1d8d508fac24fe530a73d60f",
     "url": "https://github.com/skylot/jadx/releases/download/v1.0.0/jadx-1.0.0.zip",
     "suggest": {
         "JDK": [
