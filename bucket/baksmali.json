@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/JesusFreke/smali",
     "description": "smali/baksmali is an assembler/disassembler for the dex format used by dalvik, Android's Java VM implementation.",
-    "version": "2.3",
-    "hash": "4e57ea3c6f36cdd99bd82d1fbce752763940827a18e98c6d0a71bb8088d47b99",
-    "url": "https://bitbucket.org/JesusFreke/smali/downloads/baksmali-2.3.jar",
+    "version": "2.3.1",
+    "hash": "6053ed3ffabb9f298d8fd42efc1c8386b7ef31df911db6cdbce05bb5d1f3acca",
+    "url": "https://bitbucket.org/JesusFreke/smali/downloads/baksmali-2.3.1.jar",
     "suggest": {
         "JDK": [
             "java/oraclejdk",
