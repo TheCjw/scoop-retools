@@ -1,9 +1,9 @@
 {
     "homepage": "https://www.as3sorcerer.com",
     "description": "AS3 Sorcerer is an AS3 decompiler for Windows.",
-    "version": "6.12",
+    "version": "6.16",
     "license": "https://www.as3sorcerer.com/as3s/help/en/index.html?p=1017.html",
-    "hash": "7f098a76525a57d42fabbb582bb02de7a1b59d7adb6d70d04cc7103270ac7db8",
+    "hash": "a38e7250f29f0760745fc3c10ca96cb069a9c5692c8809f9a5eae3fa2674338b",
     "url": "https://www.as3sorcerer.com/downloads/as3sorcerer_noinstaller.zip",
     "bin": "as3s.exe",
     "shortcuts": [
