@@ -1,13 +1,13 @@
 {
     "homepage": "https://github.com/BoomerangDecompiler/boomerang",
     "description": "A general, open source, retargetable decompiler of machine code programs.",
-    "version": "0.4.0",
+    "version": "0.5.0",
     "license": "BSD",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/BoomerangDecompiler/boomerang/releases/download/v0.4.0-alpha/boomerang-v0.4.0-alpha-win64.zip",
-            "hash": "7c0fa3fdeae40f2a33aedbc25a3d9b1837f3f9eb84ce930831b22519120117fc",
-            "extract_dir": "boomerang-0.4.0-alpha-win64",
+            "url": "https://github.com/BoomerangDecompiler/boomerang/releases/download/v0.5.0/boomerang-v0.5.0-win64.zip",
+            "hash": "dfb0ec78abd8dc535983b25e6246135800204530dd99afe6030d6b47e90232ba",
+            "extract_dir": "boomerang-0.5.0-win64",
             "bin": [
                 "bin/boomerang-cli.exe",
                 "bin/boomerang-gui.exe"
@@ -20,15 +20,12 @@
             ]
         }
     },
-    "checkver": {
-        "url": "https://github.com/BoomerangDecompiler/boomerang/releases",
-        "re": "boomerang-v(?<version>[\\d.]+)-(?<build>[a-zA-Z]+)-win64\\.zip"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/BoomerangDecompiler/boomerang/releases/download/v$version-$matchBuild/boomerang-v$version-$matchBuild-win64.zip",
-                "extract_dir": "boomerang-$version-$matchBuild-win64"
+                "url": "https://github.com/BoomerangDecompiler/boomerang/releases/download/v$version/boomerang-v$version-win64.zip",
+                "extract_dir": "boomerang-$version-win64"
             }
         }
     }
