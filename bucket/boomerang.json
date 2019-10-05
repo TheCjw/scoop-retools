@@ -25,7 +25,7 @@
         "architecture": {
             "64bit": {
                 "url": "https://github.com/BoomerangDecompiler/boomerang/releases/download/v$version/boomerang-v$version-win64.zip",
-                "extract_dir": "boomerang-$version-win64"
+                "extract_dir": "boomerang-v$version-win64"
             }
         }
     }
