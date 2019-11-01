@@ -1,17 +1,17 @@
 {
     "homepage": "https://github.com/libimobiledevice-win32/imobiledevice-net",
     "description": "A cross-platform protocol library to communicate with iOS devices, http://www.libimobiledevice.org.",
-    "version": "1.2.146",
+    "version": "1.2.158",
     "license": "LGPL 2.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/libimobiledevice-win32/imobiledevice-net/releases/download/v1.2.146/iMobileDevice-net.1.2.146.nupkg",
-            "hash": "ccaa52bf0e2617d8e65a3b4fdceb8593a35f747388fef198d2835b9b4f291b4f",
+            "url": "https://github.com/libimobiledevice-win32/imobiledevice-net/releases/download/v1.2.158/iMobileDevice-net.1.2.158.nupkg",
+            "hash": "006ffe713d1cad7244a8901d8972fddfc70baab8de997a3368a3c5cc7f8d5836",
             "extract_dir": "runtimes/win-x64/native"
         },
         "32bit": {
-            "url": "https://github.com/libimobiledevice-win32/imobiledevice-net/releases/download/v1.2.146/iMobileDevice-net.1.2.146.nupkg",
-            "hash": "ccaa52bf0e2617d8e65a3b4fdceb8593a35f747388fef198d2835b9b4f291b4f",
+            "url": "https://github.com/libimobiledevice-win32/imobiledevice-net/releases/download/v1.2.158/iMobileDevice-net.1.2.158.nupkg",
+            "hash": "006ffe713d1cad7244a8901d8972fddfc70baab8de997a3368a3c5cc7f8d5836",
             "extract_dir": "runtimes/win-x86/native"
         }
     },
