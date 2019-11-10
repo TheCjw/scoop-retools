@@ -1,7 +1,7 @@
 {
     "homepage": "https://github.com/uxmal/reko",
     "description": "A general purpose decompiler.",
-    "version": "0.8.1.0",
+    "version": "0.9.0.0",
     "license": "GPLv2",
     "checkver": {
         "url": "https://github.com/uxmal/reko/releases",
@@ -9,8 +9,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/uxmal/reko/releases/download/version-0.8.1.0/reko-0.8.1.0-x64.msi",
-            "hash": "023cfc9a465456f456d52ed2ca749511793e221247f0c7f48f72a3427404b55b",
+            "url": "https://github.com/uxmal/reko/releases/download/version-0.9.0.0/reko-0.9.0.0-x64.msi",
+            "hash": "2e1e1157614dce104e5af80447574ea76156b8011840a97b7d6aa3e04037c7a1",
             "extract_dir": "jklSoft/Reko",
             "bin": [
                 "WindowsDecompiler.exe",
@@ -28,8 +28,8 @@
             ]
         },
         "32bit": {
-            "url": "https://github.com/uxmal/reko/releases/download/version-0.8.1.0/reko-0.8.1.0-x86.msi",
-            "hash": "ad2f70b4cc3fbb5640b1bf279b87b6dd2f22fb887e8f0b119283f0726cab8554",
+            "url": "https://github.com/uxmal/reko/releases/download/version-0.9.0.0/reko-0.9.0.0-x86.msi",
+            "hash": "46af2d9ecbd14aa5877e574bf9bf270f9f14a35643f691a8cca400b29625f024",
             "extract_dir": "jklSoft/Reko",
             "bin": [
                 "WindowsDecompiler.exe",
