@@ -1,4 +1,4 @@
-# scoop-retools 
+# scoop-retools
 
 [![Build status](https://img.shields.io/appveyor/ci/TheCjw/scoop-retools/master.svg?style=flat-square&label=AppVeyor&logo=appveyor)](https://ci.appveyor.com/project/TheCjw/scoop-retools) [![LICENSE](https://img.shields.io/github/license/TheCjw/scoop-retools.svg?style=flat-square)](https://github.com/TheCjw/scoop-retools/blob/master/LICENSE) [![size](https://img.shields.io/github/repo-size/thecjw/scoop-retools.svg?style=flat-square)](https://github.com/TheCjw/scoop-retools) [![awesome](https://awesome.re/badge-flat.svg)](https://github.com/scoopinstaller/awesome-scoop)
 
