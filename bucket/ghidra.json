@@ -10,7 +10,6 @@
         "ghidraRun.bat",
         [
             "ghidraRun.bat",
-            "ghidra",
             "ghidra"
         ]
     ],
