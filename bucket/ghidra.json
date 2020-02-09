@@ -21,6 +21,9 @@
             "java/openjdk"
         ]
     },
+    "persist": [
+        "Ghidra\\Extensions"
+    ],
     "checkver": {
         "url": "https://ghidra-sre.org/",
         "regex": "ghidra_(?<head>[\\d.]+)_PUBLIC_(?<tail>\\d+)\\.zip",
