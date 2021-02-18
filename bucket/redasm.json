@@ -1,7 +1,7 @@
 {
     "homepage": "https://redasm.io/",
     "description": "REDasm is an interactive, multiarchitecture disassembler written in modern C++11 using Qt5 as UI Framework.",
-    "version": "3.0_BETA2",
+    "version": "3.0_BETA4",
     "license": "GPL-3.0",
     "checkver": {
         "url": "https://redasm.io/download",
@@ -9,8 +9,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://redasm.io/download/2/REDasm_3.0_BETA2_Windows_x86_64.zip",
-            "hash": "c215483013fdbcf45624ad75df0cc8e397a90dbc83e998cc68dd79528a502074",
+            "url": "https://redasm.io/download/2/REDasm_3.0_BETA4_Windows_x86_64.zip",
+            "hash": "4d6ad381e087bf29b40d0b5527accc9b580fdb6d08c5df6ef6a6f247736ccac4",
             "bin": "REDasm.exe",
             "shortcuts": [
                 [
