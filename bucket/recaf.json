@@ -3,8 +3,8 @@
     "description": "A modern Java bytecode editor https://col-e.github.io/Recaf/",
     "version": "2.18.2",
     "license": "MIT",
-    "hash": "22e17abd55db1186876e510314401d64503660ec99839c7cc7a3e6d405be0354",
-    "url": "https://github.com/Col-E/Recaf/releases/download/2.18.2/recaf-2.18.2.jar",
+    "hash": "08d64aa5dd39f4ee617ea7dca4ca39ef27fd4a5f1233f871d792aaede50609f0",
+    "url": "https://github.com/Col-E/Recaf/releases/download/2.18.2/recaf-2.18.2-J8-jar-with-dependencies.jar",
     "suggest": {
         "JDK": [
             "java/oraclejdk",
@@ -13,11 +13,12 @@
     },
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/Col-E/Recaf/releases/download/$version/recaf-$version.jar"
+        "url": "https://github.com/Col-E/Recaf/releases/download/$version/recaf-$version-J8-jar-with-dependencies.jar"
     },
     "bin": "recaf.bat",
     "pre_install": [
         "\"@echo off",
-        "start \"\"recaf\"\" /B javaw -jar \"\"$dir\\recaf.jar\"\" %*\" | out-file -en oem \"$dir\\recaf.bat\""
+        "FOR /F %%I IN ('DIR /S /B \"\"$dir\\recaf*.jar\"\"') DO SET V=%%I",
+        "start \"\"recaf\"\" /B javaw -jar \"\"%V%\"\" %*\" | out-file -en oem \"$dir\\recaf.bat\""
     ]
 }
