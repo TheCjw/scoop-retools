@@ -17,23 +17,3 @@ scoop bucket add retools https://github.com/TheCjw/scoop-retools.git
 scoop install smali baksmali apktool
 ```
 4. Done.
-
-## Use cases
-
-### Bulid [WinAFL](https://github.com/googleprojectzero/winafl)
-
-```bash
-scoop install dynamorio
-git clone https://github.com/googleprojectzero/winafl
-cd winafl
-# Compile 32bit tool
-mkdir build32
-cd build32
-cmake -G "Visual Studio 16 2019" -A Win32 .. -DDynamoRIO_DIR="$env:DYNAMORIO_DIR" -DUSE_COLOR=1
-cmake --build . --config Release
-# or 64bit
-mkdir build64
-cd build64
-cmake -G "Visual Studio 16 2019" .. -DDynamoRIO_DIR="$env:DYNAMORIO_DIR" -DUSE_COLOR=1
-cmake --build . --config Release
-```
