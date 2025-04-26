@@ -7,8 +7,8 @@
     "homepage":  "https://github.com/ReClassNET/ReClass.NET",
     "hash":  "md5:907cb5fcda4f0e8a23c3367e80cfff72",
     "bin": [
-		["x64/ReClass.NET.exe", "ReClass.NET x64"],
-		["x86/ReClass.NET.exe", "ReClass.NET x86"]
+		["ReClass.NET x64", "x64/ReClass.NET.exe"],
+		["ReClass.NET x86", "x86/ReClass.NET.exe"]
     ],
     "autoupdate": {
         "url": "https://github.com/ReClassNET/ReClass.NET/releases/download/v$version/ReClass.NET.rar"
