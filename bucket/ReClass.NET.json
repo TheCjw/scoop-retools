@@ -1,0 +1,16 @@
+{
+    "version":  "1.2",
+    "license":  "MIT",
+    "extract_dir":  "",
+    "url":  "https://github.com/ReClassNET/ReClass.NET/releases/download/v1.2/ReClass.NET.rar",
+    "depends":  "dotnet-sdk",
+    "homepage":  "https://github.com/ReClassNET/ReClass.NET",
+    "hash":  "md5:907cb5fcda4f0e8a23c3367e80cfff72",
+    "bin": [
+		["x64/ReClass.NET.exe", "ReClass.NET x64"],
+		["x86/ReClass.NET.exe", "ReClass.NET x86"]
+    ],
+    "autoupdate": {
+        "url": "https://github.com/ReClassNET/ReClass.NET/releases/download/v$version/ReClass.NET.rar"
+    }
+}
